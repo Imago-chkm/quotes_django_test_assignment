@@ -1,0 +1,1 @@
+# quotes_django_test_assignment
