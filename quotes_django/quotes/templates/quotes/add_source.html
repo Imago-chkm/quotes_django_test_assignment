@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Добавить источник{% endblock %}
+{% block content %}
+  <h2>Добавить источник</h2>
+  <form method="post" class="card card-body shadow">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn btn-primary">Сохранить</button>
+    <a href="{{ request.GET.next|default:'/' }}" class="btn btn-secondary ms-2">Отмена</a>
+  </form>
+{% endblock %}

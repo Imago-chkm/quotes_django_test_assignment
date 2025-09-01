@@ -1,0 +1,319 @@
+[
+  {
+    "model": "quotes.source",
+    "id": 1,
+    "fields": {
+      "name": "Властелин колец",
+      "type": "movie"
+    }
+  },
+  {
+    "model": "quotes.source",
+    "id": 2,
+    "fields": {
+      "name": "Гарри Поттер и философский камень",
+      "type": "movie"
+    }
+  },
+  {
+    "model": "quotes.source",
+    "id": 3,
+    "fields": {
+      "name": "1984",
+      "type": "book"
+    }
+  },
+  {
+    "model": "quotes.source",
+    "id": 4,
+    "fields": {
+      "name": "451° по Фаренгейту",
+      "type": "book"
+    }
+  },
+  {
+    "model": "quotes.source",
+    "id": 5,
+    "fields": {
+      "name": "Форрест Гамп",
+      "type": "movie"
+    }
+  },
+  {
+    "model": "quotes.source",
+    "id": 6,
+    "fields": {
+      "name": "Мастер и Маргарита",
+      "type": "book"
+    }
+  },
+  {
+    "model": "quotes.source",
+    "id": 7,
+    "fields": {
+      "name": "Назад в будущее",
+      "type": "movie"
+    }
+  },
+
+  {
+    "model": "quotes.quote",
+    "id": 1,
+    "fields": {
+      "text": "Самое большое преступление — потерять себя.",
+      "source": 3,
+      "weight": 3,
+      "views": 0,
+      "likes": 15,
+      "dislikes": 2,
+      "created_at": "2024-05-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 2,
+    "fields": {
+      "text": "Все животные равны, но некоторые равнее других.",
+      "source": 3,
+      "weight": 2,
+      "views": 0,
+      "likes": 20,
+      "dislikes": 1,
+      "created_at": "2024-05-02T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 3,
+    "fields": {
+      "text": "Книги — это зеркала: в них видишь только то, что уже есть внутри тебя.",
+      "source": 4,
+      "weight": 1,
+      "views": 0,
+      "likes": 12,
+      "dislikes": 0,
+      "created_at": "2024-05-03T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 4,
+    "fields": {
+      "text": "Люди перестают думать, когда перестают читать.",
+      "source": 4,
+      "weight": 2,
+      "views": 0,
+      "likes": 8,
+      "dislikes": 1,
+      "created_at": "2024-05-04T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 5,
+    "fields": {
+      "text": "Моя прелесть в том, что я не знаю, что делаю.",
+      "source": 5,
+      "weight": 3,
+      "views": 0,
+      "likes": 25,
+      "dislikes": 3,
+      "created_at": "2024-05-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 6,
+    "fields": {
+      "text": "Жизнь — это как коробка шоколадных конфет: никогда не знаешь, что получишь.",
+      "source": 5,
+      "weight": 4,
+      "views": 0,
+      "likes": 30,
+      "dislikes": 1,
+      "created_at": "2024-05-06T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 7,
+    "fields": {
+      "text": "Рукописи не горят.",
+      "source": 6,
+      "weight": 2,
+      "views": 0,
+      "likes": 18,
+      "dislikes": 0,
+      "created_at": "2024-05-07T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 8,
+    "fields": {
+      "text": "Кто сказал, что нет на свете настоящей, верной, вечной любви?",
+      "source": 6,
+      "weight": 1,
+      "views": 0,
+      "likes": 14,
+      "dislikes": 2,
+      "created_at": "2024-05-08T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 9,
+    "fields": {
+      "text": "Дороги? Где мы едем, нам не нужны дороги.",
+      "source": 7,
+      "weight": 3,
+      "views": 0,
+      "likes": 22,
+      "dislikes": 1,
+      "created_at": "2024-05-09T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 10,
+    "fields": {
+      "text": "Великая сила — большая ответственность.",
+      "source": 2,
+      "weight": 3,
+      "views": 0,
+      "likes": 19,
+      "dislikes": 0,
+      "created_at": "2024-05-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 11,
+    "fields": {
+      "text": "Хогвартс всегда поможет тем, кто в нём нуждается.",
+      "source": 2,
+      "weight": 2,
+      "views": 0,
+      "likes": 16,
+      "dislikes": 1,
+      "created_at": "2024-05-11T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 12,
+    "fields": {
+      "text": "Не все те, кто блуждают, потеряны.",
+      "source": 1,
+      "weight": 4,
+      "views": 0,
+      "likes": 28,
+      "dislikes": 2,
+      "created_at": "2024-05-12T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 13,
+    "fields": {
+      "text": "Да прибудет с тобой сила.",
+      "source": 1,
+      "weight": 3,
+      "views": 0,
+      "likes": 21,
+      "dislikes": 0,
+      "created_at": "2024-05-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 14,
+    "fields": {
+      "text": "Кольцо должно быть уничтожено.",
+      "source": 1,
+      "weight": 2,
+      "views": 0,
+      "likes": 17,
+      "dislikes": 3,
+      "created_at": "2024-05-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 15,
+    "fields": {
+      "text": "Ты не пройдёшь!",
+      "source": 1,
+      "weight": 5,
+      "views": 0,
+      "likes": 33,
+      "dislikes": 1,
+      "created_at": "2024-05-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 16,
+    "fields": {
+      "text": "Я — Гендальф Белый, и я пришёл назад к вам — в самый разгар!",
+      "source": 1,
+      "weight": 2,
+      "views": 0,
+      "likes": 13,
+      "dislikes": 0,
+      "created_at": "2024-05-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 17,
+    "fields": {
+      "text": "Ты — волшебник, Гарри.",
+      "source": 2,
+      "weight": 4,
+      "views": 0,
+      "likes": 26,
+      "dislikes": 1,
+      "created_at": "2024-05-17T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 18,
+    "fields": {
+      "text": "Я полагаю, что, если правда — главное, то ложь — непобедимая.",
+      "source": 3,
+      "weight": 1,
+      "views": 0,
+      "likes": 9,
+      "dislikes": 0,
+      "created_at": "2024-05-18T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 19,
+    "fields": {
+      "text": "Счастье — это риск быть раненым.",
+      "source": 5,
+      "weight": 2,
+      "views": 0,
+      "likes": 11,
+      "dislikes": 1,
+      "created_at": "2024-05-19T10:00:00Z"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "id": 20,
+    "fields": {
+      "text": "Мы — то, что мы делаем с тем, что нам дали.",
+      "source": 7,
+      "weight": 3,
+      "views": 0,
+      "likes": 15,
+      "dislikes": 0,
+      "created_at": "2024-05-20T10:00:00Z"
+    }
+  }
+]

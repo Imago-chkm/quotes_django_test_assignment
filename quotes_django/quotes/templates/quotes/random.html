@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card shadow">
+  <div class="card-body">
+    {% if quote %}
+      <blockquote class="blockquote">
+        <p class="fs-4">«{{ quote.text }}»</p>
+        <footer class="blockquote-footer">{{ quote.source }} ({{ quote.source.get_type_display }})</footer>
+      </blockquote>
+      <p class="text-muted">Просмотры: {{ quote.views }}</p>
+      <form method="post" action="{% url 'quotes:vote' quote.id %}" class="d-inline">
+        {% csrf_token %}
+        <input type="hidden" name="action" value="like">
+        <button class="btn btn-success me-2">👍 {{ quote.likes }}</button>
+      </form>
+      <form method="post" action="{% url 'quotes:vote' quote.id %}" class="d-inline">
+        {% csrf_token %}
+        <input type="hidden" name="action" value="dislike">
+        <button class="btn btn-danger">👎 {{ quote.dislikes }}</button>
+      </form>
+    {% else %}
+      <p class="text-muted">Цитат пока нет. <a href="{% url 'quotes:add_quote' %}">Добавьте первую!</a></p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

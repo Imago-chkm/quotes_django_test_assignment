@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Топ-10{% endblock %}
+{% block content %}
+<h2>Топ-10 популярных цитат</h2>
+<ol class="list-group list-group-numbered">
+  {% for q in quotes %}
+    <li class="list-group-item d-flex justify-content-between">
+      <span>«{{ q.text }}» — {{ q.source }}</span>
+      <span class="badge bg-primary rounded-pill">{{ q.likes }} лайков</span>
+    </li>
+  {% empty %}
+    <li class="list-group-item text-muted">Пока нет цитат</li>
+  {% endfor %}
+</ol>
+{% endblock %}

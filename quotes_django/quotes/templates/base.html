@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Random Quotes{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="{% url 'quotes:random' %}">Quotes</a>
+    <div>
+      <a class="btn btn-outline-light btn-sm me-2" href="{% url 'quotes:add_quote' %}">Добавить</a>
+      <a class="btn btn-outline-light btn-sm" href="{% url 'quotes:popular' %}">Топ-10</a>
+    </div>
+  </div>
+</nav>
+<div class="container mt-4">{% block content %}{% endblock %}</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
