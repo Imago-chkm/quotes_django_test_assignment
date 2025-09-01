@@ -17,7 +17,7 @@ b. У одного источника (фильм, книга и т.д.) не д
 цитат (по лайкам).
 
 ## Стэк:
-Django 4.2, SQLite, Bootstrap 5
+Django 4.2, SQLite, Bootstrap 5, black, flake8
 
 ## Локальный запуск
 
